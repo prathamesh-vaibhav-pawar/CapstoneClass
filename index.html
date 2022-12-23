@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+    <div class="Container1">
+        <h2>Welcome to The BookMark Website</h2><br><br>
+        <input type="text" id="LINK" placeholder="Paste the Link of the Website to Watch later"><br><br>
+        <span><a onclick="Save_link()" id="BookMArk" class="btn btn-info ">
+            Bookmark <span class="glyphicon glyphicon-bookmark"></span> 
+          </a>
+          <h2>Or</h2>
+          <button class="btn" id="button" onclick="Fav()">Add to my Favriots <span class="glyphicon glyphicon-heart-empty"></span></button>
+        </span>
+    </div>  
+    <div class="Output" id="Output"></div><br><br><br>
+    <div class="FAv" id="FAv"></div>
+    </center>
+</body>
+</html>
